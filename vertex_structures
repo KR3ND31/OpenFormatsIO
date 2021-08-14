@@ -1,0 +1,548 @@
+<Declaration name="SBED48839" skinned="True">
+      <UseMask>0x0000007F</UseMask>
+      <Stride>0x30</Stride>
+      <Count>0x07</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_BLENDWEIGHT" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_BLENDINDICES" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_NORMAL" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+      </D3D9VertexElements>
+    </Declaration>
+
+<Declaration name="N209731BE" skinned="False">
+      <UseMask>0x00000059</UseMask>
+      <Stride>0x24</Stride>
+      <Count>0x04</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_NORMAL" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+      </D3D9VertexElements>
+    </Declaration>
+
+<VertexDeclarations>
+    <Declaration name="S032243A7" skinned="True">
+      <UseMask>0x00000007</UseMask>
+      <Stride>0x14</Stride>
+      <Count>0x03</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_BLENDWEIGHT" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_BLENDINDICES" type="D3DDECLTYPE_UBYTE4N"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="NB60E6ACF" skinned="False">
+      <UseMask>0x00000011</UseMask>
+      <Stride>0x10</Stride>
+      <Count>0x02</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="N8A1D85ED" skinned="False">
+      <UseMask>0x00000019</UseMask>
+      <Stride>0x1C</Stride>
+      <Count>0x03</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_NORMAL" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="SE47D3CB8" skinned="True">
+      <UseMask>0x0000001F</UseMask>
+      <Stride>0x24</Stride>
+      <Count>0x05</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_BLENDWEIGHT" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_BLENDINDICES" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_NORMAL" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="N0D9A0238" skinned="False">
+      <UseMask>0x00000041</UseMask>
+      <Stride>0x14</Stride>
+      <Count>0x02</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="N1151D4F0" skinned="False">
+      <UseMask>0x00000051</UseMask>
+      <Stride>0x18</Stride>
+      <Count>0x03</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="NB7F882B0" skinned="False">
+      <UseMask>0x00000059</UseMask>
+      <Stride>0x20</Stride>
+      <Count>0x04</Count>
+      <Types>0x0300000001996006</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_NORMAL" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT16_2"/>
+      </D3D9VertexElements>
+    </Declaration>
+    
+    <Declaration name="S1E9F420D" skinned="True">
+      <UseMask>0x0000005F</UseMask>
+      <Stride>0x2C</Stride>
+      <Count>0x06</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_BLENDWEIGHT" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_BLENDINDICES" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_NORMAL" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="N35418708" skinned="False">
+      <UseMask>0x00000071</UseMask>
+      <Stride>0x1C</Stride>
+      <Count>0x04</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="S9B2B42C2" skinned="True">
+      <UseMask>0x00000077</UseMask>
+      <Stride>0x24</Stride>
+      <Count>0x06</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_BLENDWEIGHT" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_BLENDINDICES" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="NCE8F80C8" skinned="False">
+      <UseMask>0x00000079</UseMask>
+      <Stride>0x28</Stride>
+      <Count>0x05</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_NORMAL" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+      </D3D9VertexElements>
+    </Declaration>
+    
+    <Declaration name="N495D7713" skinned="False">
+      <UseMask>0x000000C1</UseMask>
+      <Stride>0x1C</Stride>
+      <Count>0x03</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="ND5912729" skinned="False">
+      <UseMask>0x000000D1</UseMask>
+      <Stride>0x20</Stride>
+      <Count>0x04</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="NEB3D83F9" skinned="False">
+      <UseMask>0x000000D9</UseMask>
+      <Stride>0x2C</Stride>
+      <Count>0x05</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_NORMAL" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="S91ADE0DE" skinned="True">
+      <UseMask>0x000000DF</UseMask>
+      <Stride>0x34</Stride>
+      <Count>0x07</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_BLENDWEIGHT" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_BLENDINDICES" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_NORMAL" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="N32AB2B5B" skinned="False">
+      <UseMask>0x000000F9</UseMask>
+      <Stride>0x30</Stride>
+      <Count>0x06</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_NORMAL" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="S3FCB0B85" skinned="True">
+      <UseMask>0x000000FF</UseMask>
+      <Stride>0x38</Stride>
+      <Count>0x08</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_BLENDWEIGHT" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_BLENDINDICES" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_NORMAL" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="N4FC4B698" skinned="False">
+      <UseMask>0x000001D9</UseMask>
+      <Stride>0x34</Stride>
+      <Count>0x06</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_NORMAL" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="S392A3D72" skinned="True">
+      <UseMask>0x000001DF</UseMask>
+      <Stride>0x3C</Stride>
+      <Count>0x08</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_BLENDWEIGHT" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_BLENDINDICES" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_NORMAL" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="N1BEA9230" skinned="False">
+      <UseMask>0x000003D9</UseMask>
+      <Stride>0x3C</Stride>
+      <Count>0x07</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_NORMAL" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="N5A9A1E1A" skinned="False">
+      <UseMask>0x000003F9</UseMask>
+      <Stride>0x40</Stride>
+      <Count>0x08</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_NORMAL" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="NE1C4E278" skinned="False">
+      <UseMask>0x00004059</UseMask>
+      <Stride>0x20</Stride>
+      <Count>0x05</Count>
+      <Types>0x030000000199A006</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_NORMAL" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT16_2"/>
+        <Element usage="D3DDECLUSAGE_TANGENT" type="D3DDECLTYPE_FLOAT16_4"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="N51263BB5" skinned="False">
+      <UseMask>0x00004059</UseMask>
+      <Stride>0x34</Stride>
+      <Count>0x05</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_NORMAL" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TANGENT" type="D3DDECLTYPE_FLOAT4"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="S9445853F" skinned="True">
+      <UseMask>0x0000405F</UseMask>
+      <Stride>0x3C</Stride>
+      <Count>0x07</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_BLENDWEIGHT" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_BLENDINDICES" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_NORMAL" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TANGENT" type="D3DDECLTYPE_FLOAT4"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="N2EA203B6" skinned="False">
+      <UseMask>0x00004079</UseMask>
+      <Stride>0x38</Stride>
+      <Count>0x06</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_NORMAL" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TANGENT" type="D3DDECLTYPE_FLOAT4"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="SD7D22350" skinned="True">
+      <UseMask>0x0000407F</UseMask>
+      <Stride>0x40</Stride>
+      <Count>0x08</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_BLENDWEIGHT" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_BLENDINDICES" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_NORMAL" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TANGENT" type="D3DDECLTYPE_FLOAT4"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="NC029036A" skinned="False">
+      <UseMask>0x000040D9</UseMask>
+      <Stride>0x3C</Stride>
+      <Count>0x06</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_NORMAL" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TANGENT" type="D3DDECLTYPE_FLOAT4"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="SFB1B35AD" skinned="True">
+      <UseMask>0x000040DF</UseMask>
+      <Stride>0x44</Stride>
+      <Count>0x08</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_BLENDWEIGHT" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_BLENDINDICES" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_NORMAL" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TANGENT" type="D3DDECLTYPE_FLOAT4"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="NC794193B" skinned="False">
+      <UseMask>0x000040F9</UseMask>
+      <Stride>0x40</Stride>
+      <Count>0x07</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_NORMAL" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TANGENT" type="D3DDECLTYPE_FLOAT4"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="S12D0183F" skinned="True">
+      <UseMask>0x000040FF</UseMask>
+      <Stride>0x48</Stride>
+      <Count>0x09</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_BLENDWEIGHT" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_BLENDINDICES" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_NORMAL" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TANGENT" type="D3DDECLTYPE_FLOAT4"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="N7A66778B" skinned="False">
+      <UseMask>0x000041D9</UseMask>
+      <Stride>0x44</Stride>
+      <Count>0x07</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_NORMAL" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TANGENT" type="D3DDECLTYPE_FLOAT4"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="S9BE9D106" skinned="True">
+      <UseMask>0x000041DF</UseMask>
+      <Stride>0x4C</Stride>
+      <Count>0x09</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_BLENDWEIGHT" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_BLENDINDICES" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_NORMAL" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TANGENT" type="D3DDECLTYPE_FLOAT4"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="NDA8927B7" skinned="False">
+      <UseMask>0x00004279</UseMask>
+      <Stride>0x40</Stride>
+      <Count>0x07</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_NORMAL" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TANGENT" type="D3DDECLTYPE_FLOAT4"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="NBDA48DB0" skinned="False">
+      <UseMask>0x000042D9</UseMask>
+      <Stride>0x44</Stride>
+      <Count>0x07</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_NORMAL" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TANGENT" type="D3DDECLTYPE_FLOAT4"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="N3ED26480" skinned="False">
+      <UseMask>0x000042F9</UseMask>
+      <Stride>0x48</Stride>
+      <Count>0x08</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_NORMAL" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TANGENT" type="D3DDECLTYPE_FLOAT4"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="N35138D97" skinned="False">
+      <UseMask>0x00004C59</UseMask>
+      <Stride>0x44</Stride>
+      <Count>0x07</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_NORMAL" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TANGENT" type="D3DDECLTYPE_FLOAT4"/>
+      </D3D9VertexElements>
+    </Declaration>
+    <Declaration name="NEFE01B25" skinned="False">
+      <UseMask>0x00004CD9</UseMask>
+      <Stride>0x4C</Stride>
+      <Count>0x08</Count>
+      <Types>0x7755555555996996</Types>
+      <D3D9VertexElements>
+        <Element usage="D3DDECLUSAGE_POSITION" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_NORMAL" type="D3DDECLTYPE_FLOAT3"/>
+        <Element usage="D3DDECLUSAGE_COLOR" type="D3DDECLTYPE_UBYTE4N"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TEXCOORD" type="D3DDECLTYPE_FLOAT2"/>
+        <Element usage="D3DDECLUSAGE_TANGENT" type="D3DDECLTYPE_FLOAT4"/>
+      </D3D9VertexElements>
+    </Declaration>
+  </VertexDeclarations>
