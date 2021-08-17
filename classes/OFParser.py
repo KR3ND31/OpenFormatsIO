@@ -24,12 +24,8 @@ class OFParser:
                      block_data):  # Function that parses OpenFormats files(.odd/.odr/.bound/.otx/.skel/.mesh) and converts to dict type
 
         inner_blocks_obj = []
-
-
         inner_block_data = []
-
         block_start_index = 0
-
         block_tab_index = 0
 
         for index in range(len(block_data)):

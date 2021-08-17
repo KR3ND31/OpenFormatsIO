@@ -1,4 +1,5 @@
 vertexStructs = {
+    "NB60E6ACF": {"POSITION": 0, "COLOR": 1},
     "N209731BE": {"POSITION": 0, "NORMAL": 1, "COLOR": 2, "UV": 3},
     "SBED48839": {"POSITION": 0, "WEIGHTS": 1, "BONE_INCIDES": 2, "NORMAL": 3, "COLOR": 4, "undef1": 5, "UV": 6},
     "N51263BB5": {"POSITION": 0, "NORMAL": 1, "COLOR": 2, "UV": 3, "undef2": 4},

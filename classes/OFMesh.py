@@ -1,29 +1,33 @@
+
 import sys
 sys.path.append(".")
 
 import os
-print (os.getcwd())
 
 from utils.help_utils import chunks
 from classes.DataBlock import DataBlock
 from classes.Geometry import Geometry
+from classes.OFParser import OFParser
 
 
 class OFMesh:
-    def __init__(self, block_data: DataBlock):
+    def __init__(self, filepath):
+        ofp = OFParser()
+        block_data = ofp.parse(filepath)
+
         self.locked = bool(block_data.getInnerByKey('Locked').getInnerByIndex(0))
         self.skinned = bool(block_data.getInnerByKey('Skinned').getInnerByIndex(0))
         self.bone_count = int(block_data.getInnerByKey('BoneCount').getInnerByIndex(0))
         self.mask = int(block_data.getInnerByKey('Mask').getInnerByIndex(0))
         # self.bounds
-
+        
         self.geometries = []
 
         for geometry in block_data.getInnerByKey('Geometries').getInnersByKey('Geometry'):
             vertices = []
             indices = []
 
-            shader_index = geometry.getInnerByKey('ShaderIndex').getInnerByIndex(0)
+            shader_index = int(geometry.getInnerByKey('ShaderIndex').getInnerByIndex(0))
             flags = geometry.getInnerByKey('Flags').getInnerByIndex(0)
             vertex_declaration = geometry.getInnerByKey('VertexDeclaration').getInnerByIndex(0)
 

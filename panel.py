@@ -1,5 +1,5 @@
 import bpy
-from .import_mesh import ImportGta5Mesh
+from .import_mesh import *
 
 class GtaIOPanel(bpy.types.Panel):
     """Panel containing import/export options in the Scene tab"""
@@ -18,6 +18,5 @@ class GtaIOPanel(bpy.types.Panel):
       
         row = layout.row()
         row.operator(ImportGta5Mesh.bl_idname, text="Import GTA5 Ped Mesh (.mesh)")
-        # row.operator('', text='Import .odr')
-        # row.operator('', text='Export .odr')
+        row.operator(SelectDirExample.bl_idname, text="Import GTA5 Ped Meshes (.mesh)")
         pass
