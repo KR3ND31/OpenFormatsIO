@@ -1,12 +1,12 @@
 
 import sys
-sys.path.append(".")
+# sys.path.append(".")
 
 import os
 
 from utils.help_utils import chunks
 from classes.DataBlock import DataBlock
-from classes.Geometry import Geometry
+from classes.OFGeometry import OFGeometry
 from classes.OFParser import OFParser
 
 
@@ -45,6 +45,6 @@ class OFMesh:
 
                 indices.extend(chunks(indices_data, 3))
 
-            geometry_obj = Geometry(shader_index, flags, vertex_declaration, indices, vertices)
+            geometry_obj = OFGeometry(shader_index, flags, vertex_declaration, indices, vertices)
 
             self.geometries.append(geometry_obj)

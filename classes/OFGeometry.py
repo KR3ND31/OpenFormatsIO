@@ -1,4 +1,4 @@
-class Geometry:
+class OFGeometry:
     def __init__(self, shader_index, flags, vertex_declaration, indices, vertices):
         self.shader_index = shader_index
         self.flags = flags

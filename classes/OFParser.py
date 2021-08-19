@@ -1,8 +1,9 @@
 import sys
-sys.path.append(".")
+
+# sys.path.append(".")
 
 import os
-from utils.help_utils import clearStr
+from utils.help_utils import clearStr, is_number
 from classes.DataBlock import DataBlock
 
 
@@ -13,7 +14,6 @@ class OFParser:
             content = f.readlines()
 
             content = content[2:-1]  # Delete version information
-
 
             block = DataBlock(inner_blocks=self.__blockParse(content))
 
@@ -48,8 +48,8 @@ class OFParser:
 
                         line_data = clear_line.split(' ')
 
-                        if len(line_data) == 2:
-                            inner_blocks_obj.append(DataBlock(line_data[0], line_data[1]))
+                        if not is_number(line_data[0]) and len(line_data) > 1:
+                            inner_blocks_obj.append(DataBlock(line_data[0], line_data[1:]))
                         else:
                             inner_blocks_obj.append(DataBlock(inner_blocks=clear_line))
 
@@ -58,7 +58,8 @@ class OFParser:
                     block_name = clearStr(
                         block_name_line.split(' ')[0])  # Сlearing unnecessary information (ex. Indices 1512 -> Incides)
 
-                    inner_blocks_obj.append(DataBlock(block_name, self.__blockParse(inner_block_data))) # Recursive call of the indoor unit
+                    inner_blocks_obj.append(
+                        DataBlock(block_name, self.__blockParse(inner_block_data)))  # Recursive call of the indoor unit
 
                     inner_block_data = []
                 continue
