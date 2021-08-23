@@ -1,12 +1,11 @@
 import sys
-from classes.OFParser import OFParser
+import classes.OFParser as OFP
 
 sys.path.append(".")
 
 
 class OFodd:
     def __init__(self, filepath):
-        ofp = OFParser()
-        block_data = ofp.parse(filepath)
+        block_data = OFP.parseFromFile(filepath)
 
         self.odr_file_pathes = [odr_path.getInnerByIndex(0) for odr_path in block_data.getAllInners()]

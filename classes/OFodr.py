@@ -1,13 +1,12 @@
 from classes.DataBlock import DataBlock
-from classes.OFParser import OFParser
+import classes.OFParser as OFP
 from classes.OFShader import OFShader
 from utils.help_utils import getFileNameByPath, getDir
 
 
 class OFodr:
     def __init__(self, filepath):
-        ofp = OFParser()
-        block_data = ofp.parse(filepath)
+        block_data = OFP.parseFromFile(filepath)
 
         path = getDir(filepath)
 

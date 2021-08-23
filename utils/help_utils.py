@@ -7,6 +7,10 @@ def chunks(lst, n):
     for i in range(0, len(lst), n):
         yield lst[i:i + n]
 
+def merge(*iters):
+    for it in iters:
+        yield from it
+
 
 def findFilesByExt(path, ext):
     import os
@@ -37,3 +41,13 @@ def is_number(str):
         return True
     except ValueError:
         return False
+
+
+def strToBool(val):
+    val = val.lower()
+    if val in ('y', 'yes', 't', 'true', 'on', '1'):
+        return True
+    elif val in ('n', 'no', 'f', 'false', 'off', '0'):
+        return False
+    else:
+        raise ValueError("invalid truth value %r" % (val,))
